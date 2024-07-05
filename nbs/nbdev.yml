@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "geospatial"
+  site-url: "https://JuanDiaz12000.github.io/geospatial"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/JuanDiaz12000/geospatial"
