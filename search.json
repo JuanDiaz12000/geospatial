@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "geospatial",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "geospatial"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "geospatial",
+    "section": "Install",
+    "text": "Install\npip install geospatial",
+    "crumbs": [
+      "geospatial"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "geospatial",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "geospatial"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "data_points\n\n data_points (n, min_x=0, min_y=0, max_x=1, max_y=1, seed=None)\n\nUna clase que contiene a los datos\n\n\n\nClusters\n\n Clusters (data_structure)\n\nUna clase que contiene los clusters\n\n\n\nClusters.DBSCAN\n\n Clusters.DBSCAN (eps=0.3, min_samples=5)\n\nRealiza un DBSCAN clustering\n\n\n\nClusters.KMeans\n\n Clusters.KMeans (n_clusters=4)\n\nRealiza un KMeans clustering\n\n\n\nClusters.HDBSCAN\n\n Clusters.HDBSCAN (min_cluster_size=5)\n\nRealiza un HDBSCAN clustering\n\n\n\nClusters.OPTICS\n\n Clusters.OPTICS (min_samples=5)\n\nRealiza un OPTICS clustering\n\nfig, ax = plt.subplots(1, 1, figsize=(6, 6))\nplt.scatter(\n cluster_all.data_structure.get_X(),\n cluster_all.data_structure.get_Y(),\n c=cluster_all.data_structure.classes_Kmeans\n)\nfig, ax = plt.subplots(1, 1, figsize=(6, 6))\nplt.scatter(\n cluster_all.data_structure.get_X(),\n cluster_all.data_structure.get_Y(),\n c=cluster_all.data_structure.classes_DBSCAN\n)\nfig, ax = plt.subplots(1, 1, figsize=(6, 6))\nplt.scatter(\n cluster_all.data_structure.get_X(),\n cluster_all.data_structure.get_Y(),\n c=cluster_all.data_structure.classes_HDBSCAN\n)\nfig, ax = plt.subplots(1, 1, figsize=(6, 6))\nplt.scatter(\n cluster_all.data_structure.get_X(),\n cluster_all.data_structure.get_Y(),\n c=cluster_all.data_structure.classes_OPTICS\n)",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
